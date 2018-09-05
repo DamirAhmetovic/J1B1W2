@@ -24,17 +24,16 @@ document.write("<br> prijs voor large pizza's: $")
 document.write(largepizza * 12)
 document.write("<br>")
 
-document.write("<br> totale prijs pizza's: $")
+document.write("<br> <br> totale prijs pizza's: $")
 document.write(smallpizza * 4.5 + mediumpizza * 8 + largepizza * 12)
 
-document.writeln("<br> uw adres: ")
-document.write(adres)
+
 
 document.body.style.backgroundColor = "blue";
 
 
 
-document.writeln("<br> aantal small drankje: ")
+document.writeln("<br> <br> aantal small drankje: ")
 document.writeln(smalldrankje)
 document.writeln("<br> aantal medium drankje: ")
 document.writeln(mediumdrankje)
@@ -57,3 +56,6 @@ document.write("<br> <br> <br>")
 
 document.write("totale prijs: $")
 document.write(smallpizza * 4.5 + mediumpizza * 8 + largepizza * 12 + smalldrankje * 1.5 + mediumdrankje * 2 + largedrankje *2.5)
+
+document.writeln("<br> <br> uw adres: ")
+document.write(adres)
